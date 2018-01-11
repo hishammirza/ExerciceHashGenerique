@@ -1,4 +1,5 @@
 #include "hash.h"
+
 #include <iostream>
 #include <vector>
 
@@ -60,5 +61,6 @@ int main(int argc, char *argv[])
 		cout <<  "hashName_V" << version() << "()" << "('"<< *it << "'):" << output << endl;
 
 	}
+
 }
 
